@@ -1,0 +1,183 @@
+/* Fonts */
+@import 'https://fonts.googleapis.com/css?family=Galada';
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+h1 {
+  font-family: 'Galada', cursive;
+  font-size: 72px;
+  font-color: ;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 22px;
+}
+
+h4 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 5px;
+}
+
+.navigation a {
+  font-family: 'Press Start 2P', cursive;
+}
+
+
+/* Elements */
+
+body {
+	background: url('/resources/images/dark_wood.png');
+}
+
+main {
+  text-align: center;
+}
+
+textarea {
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+input {
+  margin: 3px;
+  padding: 5px;
+}
+
+/* Classes */
+
+.navigation {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.btn-dark {
+    height: 46px; 
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(2, 69, 1, 0.6);
+    margin: 3px;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(4, 176, 3, 0.8);
+}
+
+.home {
+  width: 32px;
+  height: 32px;
+}
+
+.home-btn {
+  padding: 5px;
+  width: 45px;
+}
+
+.info {
+  width: 32px;
+  height: 32px;
+}
+
+.info-btn {
+  padding: 5px;
+  width: 45px;
+}
+
+.btn-wide {
+  width: 500px;
+}
+
+.content {
+  width: 1108px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.active a {
+  background: rgba(4, 176, 3, 0.8);
+}
+
+.top-bar {
+  border-top: 5px dashed #fff;
+  padding-top: 50px;
+}
+
+.margin-bottom {
+  margin-bottom: 50px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.makeGreen {
+  color: rgb(2, 69, 1);
+}
+
+.padding {
+  padding: 20px;
+}
+
+/* Id's */
+
+#firstName, #lastName {
+  width: 24%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#email {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* DropDown Styles */
+
+.dropdown {
+  width:75%;
+  height:40px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+}
+
+.dropdownTitle {
+  color: #000;
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+  margin: 10px;
+}
+
+
