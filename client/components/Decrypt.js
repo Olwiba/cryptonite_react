@@ -121,7 +121,7 @@ class Decrypt extends Component {
 						</select>
 					</div>
 					<div className="col-md-5">
-						<label for="method" className="dropdownTitle">Select Encryption Method</label><br/>
+						<label for="method" className="dropdownTitle">Select Decryption Method</label><br/>
 						<select className="dropdown" name="method" onChange={this.methodChange}>
 						  <option className="dropdownOpt">AES</option>
 						  <option className="dropdownOpt">DES</option>

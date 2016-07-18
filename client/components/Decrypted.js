@@ -20,7 +20,7 @@ class Decrypted extends Component {
         <div className="row">
 	        <div className="col-md-2"> </div>
 	        <div className="col-md-3 align-right">
-	        	<h3>Hash Check:</h3>
+	        	<h4>Hash Check:</h4>
 	        </div>
 	        <div className="col-md-3 align-left">
 	        	<img src={this.props.hashCheck} />
